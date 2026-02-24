@@ -14,7 +14,7 @@ AI-SlimTrace is a lightweight Chrome extension that translates chaotic browser e
 ### 💎 The Killer Feature
 > **Save up to 88% of your tokens** by stripping away framework noise, redundant stack traces, and system-level garbage. Keep your AI context window focused on your code, not your tooling.
 
-<video src="assets/demo.mp4" width="100%" controls autoplay loop muted></video>
+![](assets/demo.mp4)
 
 ---
 
