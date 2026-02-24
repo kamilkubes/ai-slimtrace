@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "AI-SlimTrace",
+  "version": "1.0",
+  "description": "Token-efficient Error Trace for AI Agents",
+  "permissions": [
+    "storage",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/ai-slimtrace.png",
+      "32": "icons/ai-slimtrace.png",
+      "48": "icons/ai-slimtrace.png",
+      "128": "icons/ai-slimtrace.png"
+    }
+  },
+  "icons": {
+    "16": "icons/ai-slimtrace.png",
+    "32": "icons/ai-slimtrace.png",
+    "48": "icons/ai-slimtrace.png",
+    "128": "icons/ai-slimtrace.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost/*",
+        "http://127.0.0.1/*",
+        "http://0.0.0.0/*"
+      ],
+      "js": [
+        "config.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "inject.js"
+      ],
+      "matches": [
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ]
+    }
+  ]
+}

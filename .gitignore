@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Extension builds/zips (if any)
+*.zip
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Node (in case you add build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
