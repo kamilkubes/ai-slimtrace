@@ -6,7 +6,7 @@
 
 AI-SlimTrace is a lightweight Chrome extension that translates chaotic browser errors into a concise, token-efficient format designed specifically for LLMs.
 
-> ### 📦 [**Download Ready-to-Use Package (ZIP)**](dist/ai-slimtrace-v1.0.zip)
+> ### 📦 [**Download Ready-to-Use Package (ZIP)**](dist/ai-slimtrace-v1.0.zip?raw=true)
 > *For quick installation without cloning the entire repository.*
 
 ---
@@ -41,7 +41,7 @@ When debugging with AI, raw stack traces are:
 
 ### Installation
 
-1. [**Download the ZIP**](dist/ai-slimtrace-v1.0.zip) and extract it, or clone this repository.
+1. [**Download the ZIP**](dist/ai-slimtrace-v1.0.zip?raw=true) and extract it, or clone this repository.
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top right).
 4. Click **Load unpacked** and select the extracted `ai-slimtrace` folder.
