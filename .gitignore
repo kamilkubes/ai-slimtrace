@@ -2,10 +2,12 @@
 .DS_Store
 Thumbs.db
 
-# Extension builds/zips (if any)
-*.zip
-dist/
+# Extension builds/zips
 build/
+
+# Ignore everything in dist/ EXCEPT the zip file
+dist/*
+!dist/*.zip
 
 # IDEs
 .vscode/
